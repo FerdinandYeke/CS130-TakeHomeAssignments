@@ -20,4 +20,16 @@ class Square extends Shape {
 		this.length = length;
 		this.width = width;
 	}
+	
+	public double perimeter()
+	{
+		double Peri_Sqre = 2 *(length+width);
+		return Peri_Sqre;
+	}
+	
+	public double Area()
+	{
+		double Area_Sqre = length * width;
+		return Area_Sqre;
+	}
 }

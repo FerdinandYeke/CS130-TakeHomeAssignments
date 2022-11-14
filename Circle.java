@@ -9,10 +9,16 @@ class Circle extends Shape{
 		this.radius = radius;
 	}
 	
-	public double Radius()
+	public double perimeter()
 	{
-		double Cir = 2 * Math.PI * radius;
-		return Cir;
+		double Peri_Cir = 2 * Math.PI * radius;
+		return Peri_Cir;
 				
+	}
+	
+	public double Area()
+	{
+		double Area_Cir = Math.PI * Math.pow(radius, 2);
+		return Area_Cir;
 	}
 }
